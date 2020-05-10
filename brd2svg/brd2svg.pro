@@ -18,7 +18,7 @@ QT += xml \
     widgets \
     # script \
 
-QMAKE_LFLAGS += -static -static-libgcc -static-libstdc++
+#QMAKE_LFLAGS += -static -static-libgcc -static-libstdc++
 
 TARGET = brd2svg
 CONFIG += console
